@@ -12,4 +12,4 @@ xlabel('n'); ylabel('c(n)'); title('c(n) coefficients')
 subplot(2,2,2); plot(w/pi,Hr);grid
 xlabel('frequency in pi units'); ylabel('Hr')
 title('Type-1 Amplitude Response')
-subplot(2,2,4); zplane(h,1); title('Pole–Zero Plot')
+subplot(2,2,4); zplane(h,1); title('Poleâ€“Zero Plot')
