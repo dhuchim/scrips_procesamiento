@@ -13,7 +13,7 @@ As = -round(max(db(ws/delta_w+1:1:501))) % Min Stopband Attenuation
 % Plots
 figure('Name','Ejercicio 7.9','NumberTitle','off')
 subplot(2,2,1); stem(n,hd); title('Ideal Impulse Response')
-axis([0 M-1 -0.1 0.3]); xlabel('n'); ylabel('’hd(n)')
+axis([0 M-1 -0.1 0.3]); xlabel('n'); ylabel('â€™hd(n)')
 subplot(2,2,2); stem(n,w_kai);title('Kaiser Window')
 axis([0 M-1 0 1.1]); xlabel('n'); ylabel('w(n)')
 subplot(2,2,3); stem(n,h);title('Actual Impulse Response')
